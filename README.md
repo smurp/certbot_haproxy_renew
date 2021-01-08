@@ -12,7 +12,7 @@ You are:
 
 ## How to obtain
 
-```wget https://raw.githubusercontent.com/smurp/certbot_haproxy_renew/latest/certbot_haproxy_renew.sh```
+```wget https://raw.githubusercontent.com/smurp/certbot_haproxy_renew/main/certbot_haproxy_renew.sh```
 
 ## How to automate
 
