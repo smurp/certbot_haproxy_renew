@@ -1,4 +1,4 @@
-# update_haproxy_after_certbot_renew
+# certbot_haproxy_renew
 Update HAProxy after `certbot renew`
 
 ## Assumptions
@@ -12,7 +12,7 @@ You are:
 
 ## How to obtain
 
-```wget https://raw.githubusercontent.com/smurp/update_haproxy_after_certbot_renew/latest/update_haproxy_after_certbot_renew.sh```
+```wget https://raw.githubusercontent.com/smurp/certbot_haproxy_renew/latest/certbot_haproxy_renew.sh```
 
 ## How to automate
 
