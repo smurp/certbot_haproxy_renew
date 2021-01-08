@@ -7,15 +7,17 @@ Turn renewal of all your certbot certs for haproxy into a single command suitabl
 You are:
 * using HAProxy
 * using CertBot, ie LetsEncrypt
+* using `systemd`
 * loading SSL certificates like `bind *:433 ssl crt /etc/haproxy/certs` in /etc/haproxy/haproxy.conf
 * running one or more sites with SSL
 * renewing your certs at once like `cerbbot renew`
-* extraordinarily lazy :-)
+* extraordinarily lazy, like me!
 
 ## What it does
 
 * runs `certbot -q renew` to have certbot update any certificates which need it
 * deploys any newly generated certificates in the combined format needed by HAProxy
+* restarts HAProxy (using systemd)
 
 ## How to obtain
 
@@ -30,3 +32,7 @@ Add a line to root's crontab which looks like this:
 ```
 0 */12 * * * /opt/certbot_haproxy_renew.sh
 ```
+
+## Known to work on
+* ubuntu 20.04
+
