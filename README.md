@@ -1,4 +1,4 @@
-# update_haproxy_after_cerbot_renew
+# update_haproxy_after_certbot_renew
 Update HAProxy after `certbot renew`
 
 ## Assumptions
